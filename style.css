@@ -1,4 +1,27 @@
-body{
-    background: lightgray;
-    color: black;
+body {
+  background: lightgray;
+  font-family: Arial;
+  font-weight: 700;
+}
+header {
+  margin-top: 2%;
+  text-align: center;
+}
+.header-title {
+  font-size: 5em;
+  color: rgba(255, 0, 0, 0.1);
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.267);
+  background-image: url("/img/file.jpg");
+  background-repeat: repeat-x;
+  -webkit-background-clip: text;
+  animation: animate 15s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: left 0px top 10px;
+  }
+  40% {
+    background-position: left 800px top 10px;
+  }
 }
