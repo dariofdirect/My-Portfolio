@@ -2,6 +2,8 @@ body {
   background: lightgray;
   font-family: Arial;
   font-weight: 700;
+  margin: 0;
+  padding: 0;
 }
 
 /*HEADER*/
@@ -14,9 +16,9 @@ header {
 }
 .header-title {
   font-size: 7em;
-  color: rgba(255, 0, 0, 0.1);
-  text-shadow: 2px 2px rgba(0, 0, 0, 0.267);
-  background-image: url("/img/file.jpg");
+  color: rgba(15, 8, 102, 0.219);
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.11);
+  background-image: url("/img/space.jpg");
   background-repeat: repeat-x;
   -webkit-background-clip: text;
   animation: animate 15s linear infinite;
@@ -30,11 +32,6 @@ header {
     background-position: left 800px top 10px;
   }
 }
-
-.header-title:hover {
-  color: rgba(55, 99, 245, 0.438);
-}
-
 
 /*NAV*/
 ul {
@@ -90,5 +87,39 @@ li:nth-of-type(4):hover ~ .underbar {
 }
 
 /*NAV ENDS*/
-
 /*HEADER ENDS*/
+
+/*FLOATERS*/
+.floaters {
+}
+
+.float-1 {
+  position: absolute;
+  left: 70px;
+  top: 160px;
+}
+
+.float-2 {
+  position: absolute;
+  left: 940px;
+  top: 90px;
+  z-index: 1;
+}
+
+/*FLOATERS END*/
+
+/*GITHUB SECTION*/
+#github {
+  margin-left: 2em;
+  padding: 1em;
+  background: rgba(15, 1, 94, 0.589);
+  display: flex;
+  width: 25%;
+}
+
+.git-h1,
+.git-h2 {
+  color: #ffffff;
+  margin: 0;
+}
+/*GITHUB SECTION ENDS*/
