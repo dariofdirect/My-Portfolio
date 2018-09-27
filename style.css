@@ -12,10 +12,19 @@
 
 body {
   background: lightgray;
-  font-family: Arial;
-  font-weight: 700;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
 }
 
 /*HEADER*/
@@ -49,9 +58,10 @@ header {
 
 /*NAV*/
 ul.nav {
+  font-family: "bebasregular";
   list-style-type: none;
   position: relative;
-  left: 420px;
+  left: 480px;
   top: 20px;
   margin-bottom: 2em;
 }
@@ -71,11 +81,15 @@ li {
   cursor: pointer;
 }
 
+li:hover {
+  color: #e03737;
+}
+
 li:nth-of-type(1):hover ~ .underbar {
   left: 65px;
   width: 40px;
   height: 3px;
-  background: #1414b6;
+  background: #e03737;
   box-shadow: 0 0 10px #0b7070;
 }
 li:nth-of-type(2):hover ~ .underbar {
@@ -89,15 +103,15 @@ li:nth-of-type(3):hover ~ .underbar {
   left: 245px;
   width: 40px;
   height: 3px;
-  background: rgba(150, 250, 250, 0.5);
+  background: #e03737;
   box-shadow: 0 0 10px #0b7070;
 }
 li:nth-of-type(4):hover ~ .underbar {
   left: 325px;
   width: 50px;
   height: 3px;
-  background: rgba(150, 250, 250, 0.5);
-  box-shadow: 0 0 10px #00e000;
+  background: #e03737;
+  box-shadow: 0 0 10px #0b7070;
 }
 
 /*NAV ENDS*/
@@ -105,16 +119,60 @@ li:nth-of-type(4):hover ~ .underbar {
 
 /*GLOBAL FLOATERS*/
 .float-git {
-  position: absolute;
+  position: fixed;
   left: 220px;
-  top: 260px;
+  top: 280px;
+  overflow: hidden;
 }
 
 .float-terrain {
   position: absolute;
   left: 895px;
-  top: 80px;
+  top: 90px;
   z-index: 1;
+}
+
+.float-terrain:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+  /* When the animation is finished, start again */
+  animation-iteration-count: initial;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
 }
 
 .float-facebook {
@@ -226,3 +284,20 @@ li:nth-of-type(4):hover ~ .underbar {
   color: #e03737;
 }
 /*ABOUT SECTION ENDS*/
+
+/*FOOTER*/
+
+footer {
+  background: rgb(190, 190, 190);
+  padding: 1.5em;
+  margin: 2em;
+  text-align: center;
+  color: #e03737;
+  font-family: "bebasregular";
+}
+
+.footer-span {
+  color: #000000;
+  font-family: "bebasregular";
+}
+/*FOOTER ENDS*/
