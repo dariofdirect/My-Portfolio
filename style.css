@@ -89,21 +89,30 @@ li:nth-of-type(4):hover ~ .underbar {
 /*NAV ENDS*/
 /*HEADER ENDS*/
 
-/*FLOATERS*/
-.floaters {
-}
-
-.float-1 {
+/*GLOBAL FLOATERS*/
+.float-git {
   position: absolute;
   left: 220px;
   top: 260px;
 }
 
-.float-2 {
+.float-terrain {
   position: absolute;
   left: 855px;
   top: 50px;
   z-index: 1;
+}
+
+.float-facebook {
+  position: absolute;
+  left: 230px;
+  top: 540px;
+}
+
+.float-instagram {
+  position: absolute;
+  left: 310px;
+  top: 540px;
 }
 
 /*FLOATERS END*/
@@ -123,3 +132,38 @@ li:nth-of-type(4):hover ~ .underbar {
   margin: 0;
 }
 /*GITHUB SECTION ENDS*/
+
+/*SOCIAL MEDIA SECTION*/
+
+.social-media {
+  margin-top: 1em;
+  margin-left: 2em; 
+  padding: 1em;
+  background: rgb(190, 190, 190);
+  display: flex;
+  width: 25%;
+  text-align: center;
+  line-height: 1;
+}
+
+
+.social-p {
+  color: #ffffff;
+}
+
+.social-h1{
+  color: #ffffff;
+}
+
+.social-li,
+.social-a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+.social-a:hover {
+  color: #e03737;
+}
+/*SOCIAL MEDIA SECTION ENDS*/
