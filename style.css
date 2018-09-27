@@ -3,12 +3,17 @@ body {
   font-family: Arial;
   font-weight: 700;
 }
+
+/*HEADER*/
 header {
   margin-top: 2%;
   text-align: center;
+  background: rgb(190, 190, 190);
+  padding: 2em;
+  margin: 2em;
 }
 .header-title {
-  font-size: 5em;
+  font-size: 7em;
   color: rgba(255, 0, 0, 0.1);
   text-shadow: 2px 2px rgba(0, 0, 0, 0.267);
   background-image: url("/img/file.jpg");
@@ -25,3 +30,65 @@ header {
     background-position: left 800px top 10px;
   }
 }
+
+.header-title:hover {
+  color: rgba(55, 99, 245, 0.438);
+}
+
+
+/*NAV*/
+ul {
+  list-style-type: none;
+  position: relative;
+  left: 420px;
+  top: 20px;
+  margin-bottom: 2em;
+}
+.underbar {
+  width: 0;
+  height: 5px;
+  background: rgba(100, 100, 200, 0);
+  top: 20px;
+  position: absolute;
+  -webkit-transition: 0.2s ease;
+}
+
+li {
+  width: 90px;
+  float: left;
+  -webkit-transition: 0.2s ease;
+  cursor: pointer;
+}
+
+li:nth-of-type(1):hover ~ .underbar {
+  left: 40px;
+  width: 40px;
+  height: 2px;
+  background: #1414b6;
+  box-shadow: 0 0 10px #0b7070;
+}
+li:nth-of-type(2):hover ~ .underbar {
+  left: 129px;
+  width: 40px;
+  height: 2px;
+  background: #e03737;
+  box-shadow: 0 0 10px #0b7070;
+}
+li:nth-of-type(3):hover ~ .underbar {
+  left: 220px;
+  width: 40px;
+  height: 2px;
+  background: rgba(150, 250, 250, 0.5);
+  box-shadow: 0 0 10px #0b7070;
+}
+li:nth-of-type(4):hover ~ .underbar {
+  left: 311px;
+  width: 50px;
+  height: 2px;
+  background: rgba(150, 250, 250, 0.5);
+  box-shadow: 0 0 10px #00e000;
+}
+
+/*NAV ENDS*/
+
+/*HEADER ENDS*/
