@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "bebasregular";
+  src: url("/fonts/bebas_regular_macroman/BEBAS___-webfont.eot");
+  src: url("/fonts/bebas_regular_macroman/BEBAS___-webfont.eot")
+      format("embedded-opentype"),
+    url("/fonts/bebas_regular_macroman/BEBAS___-webfont.woff") format("woff2"),
+    url("/fonts/bebas_regular_macroman/BEBAS___-webfont.woff") format("woff"),
+    url("/fonts/bebas_regular_macroman/BEBAS___-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background: lightgray;
   font-family: Arial;
@@ -15,6 +27,7 @@ header {
   margin: 2em;
 }
 .header-title {
+  font-family: "bebasregular";
   font-size: 7em;
   color: rgba(15, 8, 102, 0.219);
   text-shadow: 2px 2px rgba(0, 0, 0, 0.11);
@@ -34,7 +47,7 @@ header {
 }
 
 /*NAV*/
-ul {
+ul.nav {
   list-style-type: none;
   position: relative;
   left: 420px;
@@ -112,7 +125,7 @@ li:nth-of-type(4):hover ~ .underbar {
 .float-instagram {
   position: absolute;
   left: 310px;
-  top: 540px;
+  top: 530px;
 }
 
 /*FLOATERS END*/
@@ -128,6 +141,8 @@ li:nth-of-type(4):hover ~ .underbar {
 
 .git-h1,
 .git-h2 {
+  font-family: "bebasregular";
+  letter-spacing: 1px;
   color: #ffffff;
   margin: 0;
 }
@@ -136,6 +151,8 @@ li:nth-of-type(4):hover ~ .underbar {
 /*SOCIAL MEDIA SECTION*/
 
 .social-media {
+  font-family: "bebasregular";
+  letter-spacing: 1px;
   margin-top: 1em;
   margin-left: 2em;
   padding: 1em;
@@ -181,26 +198,30 @@ li:nth-of-type(4):hover ~ .underbar {
 }
 
 .about-title {
+  font-family: "bebasregular";
+  letter-spacing: 1px;
   color: #ffffff;
   margin: 0;
   font-size: 4em;
 }
 
-.about-learn{
+.about-learn {
+  font-family: "bebasregular";
+  letter-spacing: 1px;
   color: #ffffff;
   margin: 0;
 }
 
-.about-li{
+.about-li {
   list-style: none;
   word-spacing: 3em;
 }
 
-.about-info{
+.about-info {
   text-align: center;
 }
 
-.span-about{
+.span-about {
   color: #e03737;
 }
 /*ABOUT SECTION ENDS*/
