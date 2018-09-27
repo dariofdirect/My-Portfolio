@@ -98,8 +98,8 @@ li:nth-of-type(4):hover ~ .underbar {
 
 .float-terrain {
   position: absolute;
-  left: 855px;
-  top: 50px;
+  left: 895px;
+  top: 80px;
   z-index: 1;
 }
 
@@ -137,7 +137,7 @@ li:nth-of-type(4):hover ~ .underbar {
 
 .social-media {
   margin-top: 1em;
-  margin-left: 2em; 
+  margin-left: 2em;
   padding: 1em;
   background: rgb(190, 190, 190);
   display: flex;
@@ -146,13 +146,13 @@ li:nth-of-type(4):hover ~ .underbar {
   line-height: 1;
 }
 
-
 .social-p {
   color: #ffffff;
 }
 
-.social-h1{
+.social-h1 {
   color: #ffffff;
+  margin: 0;
 }
 
 .social-li,
@@ -167,3 +167,40 @@ li:nth-of-type(4):hover ~ .underbar {
   color: #e03737;
 }
 /*SOCIAL MEDIA SECTION ENDS*/
+
+/*ABOUT SECTION*/
+
+.about-me {
+  display: flex;
+  position: absolute;
+  top: 300px;
+  left: 450px;
+  width: 64.3%;
+  background: rgb(190, 190, 190);
+  padding: 1em;
+}
+
+.about-title {
+  color: #ffffff;
+  margin: 0;
+  font-size: 4em;
+}
+
+.about-learn{
+  color: #ffffff;
+  margin: 0;
+}
+
+.about-li{
+  list-style: none;
+  word-spacing: 3em;
+}
+
+.about-info{
+  text-align: center;
+}
+
+.span-about{
+  color: #e03737;
+}
+/*ABOUT SECTION ENDS*/
