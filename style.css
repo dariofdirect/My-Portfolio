@@ -30,30 +30,16 @@ html {
 /*HEADER*/
 header {
   margin-top: 2%;
+  margin-bottom: 2%;
   text-align: center;
   background: rgb(190, 190, 190);
   padding: 2em;
-  margin: 2em;
 }
 .header-title {
   font-family: "bebasregular";
   font-size: 7em;
-  color: rgba(15, 8, 102, 0.219);
-  text-shadow: 2px 2px rgba(0, 0, 0, 0.11);
-  background-image: url("/img/moon.jpg");
-  background-repeat: repeat-x;
-  background-size: 2000px;
-  -webkit-background-clip: text;
-  animation: animate 15s linear infinite;
-}
+  color: rgb(0, 0, 0);
 
-@keyframes animate {
-  0% {
-    background-position: left 0px top 10px;
-  }
-  40% {
-    background-position: left 800px top 10px;
-  }
 }
 
 /*NAV*/
@@ -61,7 +47,7 @@ ul.nav {
   font-family: "bebasregular";
   list-style-type: none;
   position: relative;
-  left: 480px;
+  left: 500px;
   top: 20px;
   margin-bottom: 2em;
 }
@@ -289,8 +275,9 @@ li:nth-of-type(4):hover ~ .underbar {
 
 footer {
   background: rgb(190, 190, 190);
+  border-top: #e03737 3px solid;
   padding: 1.5em;
-  margin: 2em;
+  margin-top: 2%;
   text-align: center;
   color: #e03737;
   font-family: "bebasregular";
