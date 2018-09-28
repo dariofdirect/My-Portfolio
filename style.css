@@ -36,7 +36,7 @@ header {
   padding: 2em;
 }
 .header-title {
-  font-family: "bebasregular";
+ 
   font-size: 7em;
   color: rgb(0, 0, 0);
 }
@@ -106,7 +106,7 @@ li:nth-of-type(4):hover ~ .underbar {
 .float-git {
   position: fixed;
   left: 220px;
-  top: 280px;
+  top: 250px;
   overflow: hidden;
 }
 
@@ -163,13 +163,13 @@ li:nth-of-type(4):hover ~ .underbar {
 .float-facebook {
   position: absolute;
   left: 230px;
-  top: 540px;
+  top: 499px;
 }
 
 .float-instagram {
   position: absolute;
   left: 310px;
-  top: 530px;
+  top: 490px;
 }
 
 /*FLOATERS END*/
@@ -187,7 +187,7 @@ li:nth-of-type(4):hover ~ .underbar {
 .git-h2 {
   font-family: "bebasregular";
   letter-spacing: 1px;
-  color: #ffffff;
+  color: #e03737;
   margin: 0;
 }
 /*GITHUB SECTION ENDS*/
@@ -212,7 +212,7 @@ li:nth-of-type(4):hover ~ .underbar {
 }
 
 .social-h1 {
-  color: #ffffff;
+  color: #e03737;
   margin: 0;
 }
 
@@ -244,7 +244,7 @@ li:nth-of-type(4):hover ~ .underbar {
 .about-title {
   font-family: "bebasregular";
   letter-spacing: 1px;
-  color: #ffffff;
+  color: #e03737;
   margin: 0;
   font-size: 4em;
 }
@@ -252,7 +252,7 @@ li:nth-of-type(4):hover ~ .underbar {
 .about-learn {
   font-family: "bebasregular";
   letter-spacing: 1px;
-  color: #ffffff;
+  color: #e03737;
   margin: 0;
 }
 
