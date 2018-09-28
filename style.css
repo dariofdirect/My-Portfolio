@@ -47,8 +47,8 @@ ul.nav {
   list-style-type: none;
   position: relative;
   left: 500px;
-  top: 20px;
-  margin-bottom: 2em;
+  top: 10px;
+  margin-bottom: 3em;
 }
 .underbar {
   width: 0;
@@ -276,11 +276,13 @@ li:nth-of-type(4):hover ~ .underbar {
   text-align: center;
   padding-left: 2em;
   padding-right: 2em;
+  margin-bottom: 2em;
 }
 
 .projects-p {
   margin-left: 10em;
   margin-right: 10em;
+  font-size: 20px;
 }
 
 .projects-hr {
