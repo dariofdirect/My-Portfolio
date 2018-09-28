@@ -39,7 +39,6 @@ header {
   font-family: "bebasregular";
   font-size: 7em;
   color: rgb(0, 0, 0);
-
 }
 
 /*NAV*/
@@ -270,6 +269,24 @@ li:nth-of-type(4):hover ~ .underbar {
   color: #e03737;
 }
 /*ABOUT SECTION ENDS*/
+
+/*-----PROJECTS PAGE------*/
+/*Projects Section*/
+#projects {
+  text-align: center;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.projects-p {
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+.projects-hr {
+  width: 20%;
+}
+/*Projects Section Ends*/
 
 /*FOOTER*/
 
