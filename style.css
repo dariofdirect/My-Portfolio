@@ -11,7 +11,7 @@
 }
 
 body {
-  background: lightgray;
+  background: rgb(255, 255, 255);
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -29,10 +29,10 @@ html {
 
 /*HEADER*/
 header {
-  margin-top: 2%;
+  margin-top: 0;
   margin-bottom: 2%;
   text-align: center;
-  background: rgb(190, 190, 190);
+  background: rgb(250, 247, 247);
   padding: 2em;
 }
 .header-title {
@@ -273,22 +273,40 @@ li:nth-of-type(4):hover ~ .underbar {
 /*-----PROJECTS PAGE------*/
 /*Projects Section*/
 #projects {
-  text-align: center;
-  padding-left: 2em;
-  padding-right: 2em;
   margin-bottom: 2em;
+}
+
+.projects-h1{
+  font-family: "bebasregular";
+  color: #e03737;
+  text-align: center;
+}
+
+.projects-h2{
+  font-family: "bebasregular";
+  color: #e03737;
+  text-align: center;
 }
 
 .projects-p {
   margin-left: 10em;
   margin-right: 10em;
   font-size: 20px;
+  text-align: center;
 }
 
 .projects-hr {
   width: 20%;
 }
 /*Projects Section Ends*/
+
+/*WEBSHOW SECTION*/
+#webshow {
+text-align: center;
+margin-top: 0;
+}
+
+/*WEBSHOW SECTION ENDS*/
 
 /*FOOTER*/
 
